@@ -1,6 +1,10 @@
 using my.bookstore as my from '../db/data-model';
+using { TopSellingBooks as TopSellingBooksView } from '../db/top-selling-books';
+
 
 service CatalogService {
+  entity TopSellingBooks as projection on TopSellingBooksView;
+
   entity Books           as projection on my.Books;
   entity Authors         as projection on my.Authors;
   entity Categories      as projection on my.Categories;
