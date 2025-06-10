@@ -1,0 +1,3 @@
+ID,book_ID,quantity,soldOn
+s1,abc12345-abcd-abcd-abcd-abc123456789,5,2024-06-01
+s2,def67890-defg-defg-defg-def678901234,3,2024-06-05
